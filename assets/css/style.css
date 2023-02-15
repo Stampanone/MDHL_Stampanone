@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    color: black ;
+}
+
+header{
+    background: url(../img/design1_image1.jpg) center;
+    background-size: 100vw;  
+    height: 45vh;
+    font-size: 3vw;
+    object-fit: contain;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+
+nav a:hover{
+    background-color: brown;
+}
+
+.pieHeader{
+    max-height: 9vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    min-height: 396px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(215,5,5,1) 50%, rgba(241,138,138,1) 100%);
+}
+
+section{
+    max-width: 70%;
+    
+}
+.contenedora{
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.imagen{
+    border-radius: 25%;
+    padding: 10%;
+}
+
+dl{
+    padding: 3%;
+}
+dt, dd{
+    padding: 0.5%;
+}
+
+ol, ul, li{
+    padding: 0.7%;
+}
+
+.parrafo{
+    max-width: 30vw;
+}
+
+
