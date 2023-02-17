@@ -8,6 +8,7 @@
 
 h1 {
     color: black ;
+  
 }
 
 header{
@@ -19,7 +20,7 @@ header{
 }
 nav a{
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     transition: 1s;
 }
 
@@ -72,4 +73,33 @@ ol, ul, li{
     max-width: 30vw;
 }
 
+.mapas{
+    
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapas div{
+    margin: 1rem;
+}
+
+form{
+    padding: 2rem;
+    
+}
+
+form input{
+    margin: 1rem;
+    color: black;
+}
+form select, option{
+    color: black;
+}
+
+@media screen and (max-width:426) {
+    main{
+        background-color: aliceblue;
+    }
+}
 
